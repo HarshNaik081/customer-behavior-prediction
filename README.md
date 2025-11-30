@@ -28,8 +28,7 @@ Analyzed 541,909 e-commerce transactions to identify **customer retention driver
 
 ## 🛠️ Technologies Used
 - **Python** (pandas, numpy) - Data cleaning & RFM analysis
-- **SQL** - Data aggregation & queries
-- **Tableau Public** - Dashboard visualization
+- **Tableau Public** - Dashboard visualization (external tool)
 - **GitHub** - Version control & project sharing
 
 ## 📈 Data Quality
@@ -74,10 +73,11 @@ python scripts/cohort_analysis.py
 - `outputs/rfm_segments.csv` - Customer segments with RFM scores
 - `outputs/cohort_retention.csv` - Monthly retention rates
 
-### 4. Visualize in Tableau
-- Import CSVs to Tableau Public
+### 4. Visualize (Optional)
+- Import CSVs to Tableau Public or Power BI
 - Create segment distribution charts
 - Build retention heatmap
+- Visualize customer segments and revenue concentration
 
 ## 💡 Key Metrics to Know
 
